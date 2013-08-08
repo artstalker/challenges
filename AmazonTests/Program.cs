@@ -12,11 +12,16 @@ ba
 aac";
 		static void Main(string[] args)
 		{
-			LongestRunningCharacterSequence processor = new LongestRunningCharacterSequence();
-			processor.Process(test.Split(new string[] {Environment.NewLine},StringSplitOptions.RemoveEmptyEntries));
+			//LongestRunningCharacterSequence processor = new LongestRunningCharacterSequence();
+			//processor.Process(test.Split(new string[] {Environment.NewLine},StringSplitOptions.RemoveEmptyEntries));
 
-			Console.WriteLine(processor.Character);
-			Console.WriteLine(processor.Length);
+			//Console.WriteLine(processor.Character);
+			//Console.WriteLine(processor.Length);
+
+
+			//FindNumberOccurencesInArray.FindNumberOccurencesInArray.RunTest();
+
+			FindTheMostOccupiedYear.FindTheMostOccupiedYear.Test();
 
 			Console.Read();
 		}

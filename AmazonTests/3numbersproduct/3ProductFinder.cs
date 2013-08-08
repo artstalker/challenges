@@ -15,9 +15,10 @@ namespace AmazonTests._3numbersproduct
 			{
 				Number number = new Number(array[i],i);
 				priorityQueue.Enqueue(number,number);
+				
 			}
 
-
+			return array;
 		}
 
 

@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="3numbersproduct\3ProductFinder.cs" />
     <Compile Include="3numbersproduct\PriorityQueue.cs" />
+    <Compile Include="FindNumberOccurencesInArray\FindNumberOccurencesInArray.cs" />
+    <Compile Include="FindTheMostOccupiedYear\FindTheMostOccupiedYear.cs" />
     <Compile Include="LongestRunningCharacterSequence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
